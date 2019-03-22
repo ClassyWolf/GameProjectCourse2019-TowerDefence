@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2056977771385678409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2056977771385678411}
+  - component: {fileID: 7112205521637273085}
+  - component: {fileID: 1065312341111694529}
+  - component: {fileID: 6971858610502794149}
+  - component: {fileID: 2056977771385678408}
+  - component: {fileID: 5427645792508460339}
+  - component: {fileID: 5457754337632995609}
+  - component: {fileID: 7622123056826445619}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2056977771385678411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056977771385678409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4125895, y: 0.10081181, z: 0.00791968}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7112205521637273085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056977771385678409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f0ce8d7adb21e40b02cadcbe0fbf04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1065312341111694529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056977771385678409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0bf8d0900fa530458a5e316263917c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pausePanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  victoryPanel: {fileID: 0}
+  canUsePauseMenu: 0
+--- !u!114 &6971858610502794149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056977771385678409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27341572e105f4e4dbd57d42f1dc90a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseGame: {fileID: 1065312341111694529}
+--- !u!114 &2056977771385678408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056977771385678409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb91d0405b6a81e4ea610ab2e3c1a20a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  archerTowerPrefab: {fileID: 7249269262313036895, guid: b80d46f8d73077f40b859b26163b81c0,
+    type: 3}
+  mageTowerPrefap: {fileID: 4075855943327918354, guid: 79e34c0d5836a404682d2a52f0034c7f,
+    type: 3}
+  slowTowerPrefap: {fileID: 7784723203162122267, guid: a9ce11f7e2f8b8b47adbd0a98b6f4357,
+    type: 3}
+--- !u!114 &5427645792508460339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056977771385678409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a89d55b0af4bb840b229b13797f7ce0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy1Damage: 3
+  enemy2Damage: 3
+  enemy3Damage: 6
+  arrowDamage: 4
+  spellDamage: 3
+  slowDamage: 2
+--- !u!114 &5457754337632995609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056977771385678409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6220765aa4d2df64aa8ed86aecaee9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldLabel: {fileID: 0}
+  startingGold: 100
+--- !u!114 &7622123056826445619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056977771385678409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a93eb09142535e488db53444ad4273f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveLabel: {fileID: 0}
+  nextWaveLabels: []
+  gameOver: 0
